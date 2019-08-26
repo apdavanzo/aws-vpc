@@ -1,6 +1,4 @@
-provider "aws" {
-  region     = "${var.aws_region}"
- }
+provider "aws" {}
 
 # Create a VPC
 resource "aws_vpc" "example" {
